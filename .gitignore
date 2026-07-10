@@ -1,0 +1,34 @@
+# Environment variables (contains private keys)
+.env
+
+# Database files
+*.db
+*.sqlite
+
+# Python cache and build outputs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+env/
+venv/
+.venv/
+backend/env/
+backend/venv/
+backend/.venv/
+
+# Node dependencies and build folders
+node_modules/
+dist/
+frontend/dist/
+frontend/node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
